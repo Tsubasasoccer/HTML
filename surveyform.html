@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  table {
+    width: 100%;
+    border-spacing: 50px;
+
+
+  }
+
+  tr,
+  table,
+  td,
+  th {
+    border: solid black 2px;
+
+
+  }
+
+  td {
+    text-align: center;
+  }
+</style>
+
+<body>
+  <p>This is H<sub>2</sub>O</p>
+  <p>This formula is e<sup>2</sup></p>
+  <h1 style="background-color:hsla(9,100%,40%,0.5);">Hello world</h1>
+  <h1 style="border:6px solid blue">Hello world</h1>
+  <table>
+    <tr>
+      <th>FirstName</th>
+      <th>LastName</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>X</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Y</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>Z</td>
+      <td>O</td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <tr>
+      <th rowspan="2">FirstName</th>
+      <td>A</td>
+      <td>B</td>
+    </tr>
+    <tr>
+
+      <td>X</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>Country</th>
+      <td>M</td>
+      <td>N</td>
+    </tr>
+
+  </table>
+  <br>
+  <table>
+    <tr>
+      <th colspan="2">Name</th>
+
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>X</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Y</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>Z</td>
+      <td>O</td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>6</td>
+      <td>7</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>10</td>
+      <td>11</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>14</td>
+      <td>15</td>
+      <td>16</td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <colgroup>
+      <col span="2" style="background-color: blue;">
+    <tr>
+      <th>MON</th>
+      <th>TUE</th>
+      <th>WED</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    </colgroup>
+
+  </table>
+  <br>
+  <ol>
+    <li>Rent</li>
+    <li>Grocery</li>
+    <li>Phone</li>
+    <li>Entertainment</li>
+  </ol>
+  <ul>
+    <li>Rent</li>
+    <li>Grocery</li>
+    <li>Phone</li>
+    <li>Entertainment</li>
+  </ul>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>Black hot drink</dd>
+    <dt>MILK</dt>
+    <dd>xyz</dd>
+  </dl>
+  <br>
+  <table>
+    <tr>
+      <th>Months</th>
+      <th>Expenses</th>
+      <th>City</th>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td>
+        <ol>
+          <li>Food</li>
+          <li>Grocery</li>
+          <li>Rent</li>
+          <li>Clothes</li>
+        </ol>
+      </td>
+      <td>Vancouver</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>
+        <ul>
+          <li>Food</li>
+          <li>Grocery</li>
+          <li>Rent</li>
+          <li>Clothes</li>
+        </ul>
+      </td>
+      <td>Vancouver</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td>
+        <dl>
+          <dt>A</dt>
+          <dd>Food</dd>
+          <dt>B</dt>
+          <dd>Rent</dd>
+        </dl>
+      </td>
+      <td>Vancouver</td>
+    </tr>
+  </table>
+  <br>
+  <video width="500" height="500" controls  autoplay playsinline muted>
+    <source src="mixkit-a-man-waving-a-rainbow-flag-1343-medium.mp4" type="video/mp4">
+  </video>
+  <audio src="/Users/tsubasashioda/Desktop/My Youtube/bgm/Carter Vail - Melatonin [Thematic].mp3" controls muted autoplay type="audio/mp3"></audio>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JYPIDIQSvb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <br>
+  <form>
+    <label for="">FirstName</label>
+    <input type="text">
+    <br>
+    <input type="checkbox" id="html" name="html" value="html">
+    <label for="" id="html">HTML</label>
+    <br>
+    <input type="checkbox" id="html2" name="css" value="css">
+    <label for="" id="html2">CSS</label>
+    <br>
+    <input type="checkbox" id="html3" name="js" value="js">
+    <label for="" id="html3">JS</label>
+    <br>
+    <input type="radio">
+    <label for="html">HTML</label>
+    <br>
+    <input type="radio">
+    <label for="css">CSS</label>
+    <br>
+    <input type="radio">
+    <label for="js">JS</label>
+    <br>
+    <input type="button" value="OK" onclick="alert('You have clicked the button ')"/>
+    <br>
+    <input type="color" name="red" value="red" style="color: #ff0000;" id="birthday">
+    <br>
+    <input type="date" id="birthday" name="bd1">
+    <label for="birthday">Select birthday</label>
+    <br><br>
+    <input type="date" id="id1" name="minidate" min="1998-12-12" max="2023-07-13">
+    <input type="datetime-local" id="id2" name="maxdate" max="2023-07-13"><br><br><br><br><br><br><br><br>
+    <input type="email" id="email1" name="email">
+    <br><br><br>
+    <input type="image" src="yajirushi23bJ6.jpg.webp">
+    <input type="file" id="file1" name="fileinfo">
+    <input type="month" name="birthday month" id="month" value="July">
+    <input type="number" id="num" name="no1" min="10" max="100" step="10">
+    <br>
+    <input type="search" id="s1" name="gsearch">
+    <br>
+    <input type="tel" name="mobile" id="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" maxlength="12">
+    <br>
+    <input type="week" id="weel1" name="week">
+    <label for="week">Select a week:</label>
+    <input type="week" id="week" name="week">
+    <br>
+    <input type="text" id="id1" name="Jone" value="Jone" readonly>
+    <input type="text" id="id1" name="Jone" value="Jone" autofocus>
+    <br>
+   
+    <select name="" id="browser">
+      <option value=""></option>
+      <option value="">1</option>
+      <option value="">2</option>
+      <option value="">3</option>
+    </select>
+     
+    
+   
+    
+    <br><br><br><br>
+
+  </form>
+
+
+</body>
+
+</html>
